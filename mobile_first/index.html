@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First</title>
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body onresize="mudarDetamanho"()>
+
+    <header>
+       <h1> mobile first</h1>
+    </header>
+
+    <span id="burger" class="material-symbols-outlined" onclick="botaoMenu()">
+        menu
+    </span>
+    <!-- <span> funciona como <div> -->
+
+    <menu id="itens">
+        <ul>
+            <li><a href="#">mobile</a></li>
+            <li><a href="#"> tablet</a></li>
+            <li><a href="#">smart_tv</a></li>
+            <li><a href="#">desktop</a></li>
+        </ul>
+        <!--tag <li> para lista e <ul> lista nao ordenada
+            <article> divisao para textos-->
+    </menu>
+
+
+    <nav></nav>
+    
+
+    <main>
+        
+        <img src="../assets/icon-phone.png" alt="teste com celular" id="mobile" width="100" height="100">
+    
+        <img src="../assets/icon-tablet.png" alt="teste com tablet" id="tablet" width="100" height="100">
+    
+        <img src="../assets/icon-print.png" alt="versão impressora" id="print" width="100" height="100">
+    
+        <img src="../assets/icon-pc.png" alt="teste com desktop" id="pc" width="100" height="100">
+    
+        <img src="../assets/icon-tv.png" alt="teste com smart tv" id="tv" width="100" height="100">
+    
+            <!-- Dentro  do main foi criado um div com um id para ser usado no Medias Queries
+             e dentro dele foi criado um div com um id para ser usado no Medias Queries
+             onde a estrutura article será redimencionada para cada visualização de tela-->
+    
+        <article>
+            <h2>Testando Media Queries</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem quam voluptas amet numquam necessitatibus repellat quae, aspernatur provident quibusdam dolores quisquam! Itaque laudantium culpa eligendi rerum distinctio ea ipsam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum, necessitatibus sequi accusantium accusamus impedit laborum provident itaque illum, repudiandae sint possimus porro esse nulla omnis aut deleniti eos consequuntur.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ab illo. Atque sapiente nulla quo illo neque nemo error? Eveniet, libero optio rem sint odit dicta cumque blanditiis maxime esse!
+        </p>
+
+        <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, harum. Aliquid molestias, inventore maxime blanditiis dolorem excepturi iure delectus alias quod eveniet nesciunt quasi deserunt doloremque maiores, voluptate exercitationem nulla!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum impedit veritatis reprehenderit! Ipsa eos velit sunt modi? Consequatur, minus eius ex cumque nisi, at magni veniam recusandae accusamus, soluta ratione?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nostrum voluptate numquam, quaerat in blanditiis vel est obcaecati eaque libero aperiam nesciunt provident quidem temporibus ut suscipit? Minus, quae nisi?
+        </p>
+        </article>
+    </main>
+    
+    <footer>Marcella Harumy | 2024</footer>
+
+    
+    <script src="../assets/js/scriptmq.js"> </script>
+</body>
+</html>
