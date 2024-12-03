@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* 
+https://paletadecores.com/paleta/f1ecdf/d4c9ad/c7ba99/000000/f58723/ 
+#f1ecdf
+#d4c9ad
+#c7ba99
+#000000
+#f58723
+*/
+
+body{
+    background-color: #f1ecdf;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em;
+}
+
+header>h1{
+    color: #f1ecdf;
+}
+
+nav{
+    padding: 1vh;
+    margin: 1em;
+    background-color: #d4c9ad;
+    width: 180vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>article>img{
+    width: 100px;
+    margin: 1em;
+}
+
+main>article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    margin: 1em;
+    background-color: #d4c9ad;
+    width: 180vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
